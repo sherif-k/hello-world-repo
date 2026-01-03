@@ -1,0 +1,14 @@
+name: Hello World
+
+# Trigger the workflow on every push to the repository
+on: push
+
+jobs:
+  hello-job:
+    # Use the latest Ubuntu runner
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Run a simple echo command
+      - name: Echo text
+        run: echo "Hello, world!"echo "Hello, world!"
